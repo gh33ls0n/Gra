@@ -24,6 +24,11 @@ namespace GraGUI
 
         private void buttonNowaGra_Click(object sender, EventArgs e)
         {
+            groupboxLosowanie.Enabled = true;
+            textboxOd.Clear();
+            textboxDo.Clear();
+            textBoxPropozycja.Clear();
+
             groupboxLosowanie.Visible = true;
             buttonNowaGra.Enabled = false;
             buttonPoddaj.Visible = true;
